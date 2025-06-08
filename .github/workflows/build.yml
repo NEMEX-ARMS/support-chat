@@ -1,16 +1,16 @@
-name: Build and Deploy Retype
+name: Build and Deploy Retype Wiki
 
 on:
   push:
     branches:
-      - main  # uruchamia się przy pushu na main
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Retype
-        run: npm install retypeapp --global
+      - name: Install Retype CLI
+        run: npm install -g retypeapp
 
       - name: Build Retype site
         run: retype build
@@ -28,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./retype  # zakłada, że masz output: _site
+          publish_dir: ./_site

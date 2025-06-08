@@ -1,5 +1,5 @@
 ---
-title: Podłączenie bazy danych
+title: Powitanie Kienta
 icon: key
 logo: /static/logo.png
 order: 1

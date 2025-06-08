@@ -3,7 +3,7 @@ title: WaveHost Wiki
 icon: home
 description: WaveHost Wiki to miejsce, w którym znajdziesz wszystkie najważniejsze informacje o tym, jak zarządzać swoim serwerem gier. To poradniki, wskazówki i doświadczenia innych administratorów – wszystko zebrane w jednym miejscu.
 authors:
-  - name: Jäger
+  - name: Wojciech
     avatar: /static/avatars/jager.png
 ---
 

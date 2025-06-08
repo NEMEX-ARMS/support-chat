@@ -1,31 +1,31 @@
-name: Build Retype
+name: Build and Deploy Retype
 
 on:
   push:
     branches:
-      - main 
-
-permissions:
-  contents: write
+      - main  # uruchamia się przy pushu na main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      
-      - name: Install
-        run: npm install -g retypeapp
 
-      - name: Build Retype
-        run: |
-          npx retype build
-          mkdir -p public
-          ls -la  
-          touch public/.nojekyll  
-      - name: Deploy to GH
-        uses: peaceiris/actions-gh-pages@v4
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Retype
+        run: npm install retypeapp --global
+
+      - name: Build Retype site
+        run: retype build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.retype
+          publish_dir: ./retype  # zakłada, że masz output: _site

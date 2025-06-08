@@ -1,0 +1,168 @@
+{
+  "version": "3.9.0",
+  "created": "2025-06-08T17:04:06Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "Informacje\\ikona\\index.html"
+    },
+    {
+      "path": "Informacje\\opis\\index.html"
+    },
+    {
+      "path": "Obsługa-Klienta-Chat\\bazadanych\\index.html"
+    },
+    {
+      "path": "Obsługa-Klienta-Chat\\ikona\\index.html"
+    },
+    {
+      "path": "Obsługa-Klienta-Chat\\konfiguracja_txadmin\\index.html"
+    },
+    {
+      "path": "Obsługa-Klienta-Chat\\licencja\\index.html"
+    },
+    {
+      "path": "Obsługa-Klienta-Chat\\port_txadmin\\index.html"
+    },
+    {
+      "path": "Obsługa-Klienta-Chat\\webapikey\\index.html"
+    },
+    {
+      "path": "package-lock.json"
+    },
+    {
+      "path": "package.json"
+    },
+    {
+      "path": "resources\\css\\retype.css"
+    },
+    {
+      "path": "resources\\fonts\\Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources\\fonts\\Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources\\js\\config.js"
+    },
+    {
+      "path": "resources\\js\\lunr.js"
+    },
+    {
+      "path": "resources\\js\\retype.js"
+    },
+    {
+      "path": "resources\\js\\search.json"
+    },
+    {
+      "path": "resources\\lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources\\retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "static\\avatars\\jager.png"
+    },
+    {
+      "path": "static\\Informacje\\ikona1.png"
+    },
+    {
+      "path": "static\\Informacje\\logo.png"
+    },
+    {
+      "path": "static\\Informacje\\opis1.png"
+    },
+    {
+      "path": "static\\logo.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\databases0.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\databases1.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\databases2.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\key1.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\key2.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin1.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin2.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin3.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin4.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin5.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin6.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin7.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\konfiguracja_txadmin8.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\logo.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\logo2.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\logo3.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\portadmin1.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\portadmin2.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\portadmin3.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\webapi0.png"
+    },
+    {
+      "path": "static\\Obsługa-Klienta-Chat\\webapi1.png"
+    }
+  ]
+}

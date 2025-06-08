@@ -1,6 +1,6 @@
 input: .
 output: .retype
-url: support.nemex-arms.pl
+url: 
 favicon: static/logo.png
 logo: /static/logo.png
 meta:
@@ -16,7 +16,7 @@ links:
 exclude:
   - 'README.md'
 edit:
-  repo: 'https://github.com/wavehost/wiki'
+  repo: 'https://github.com/NEMEX-ARMS/support-chat'
   branch: main
   label: Edytuj na GitHub
 start:

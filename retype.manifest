@@ -1,6 +1,6 @@
 {
   "version": "3.9.0",
-  "created": "2025-06-08T17:04:06Z",
+  "created": "2025-06-08T17:19:46Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -9,7 +9,8 @@
       "path": "404.html"
     },
     {
-      "path": "CNAME"
+      "path": "CNAME",
+      "old": true
     },
     {
       "path": "index.html"

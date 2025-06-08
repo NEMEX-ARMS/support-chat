@@ -1,3 +1,4 @@
+base: /support-chat/
 input: .
 output: .retype
 url: 

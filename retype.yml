@@ -1,0 +1,30 @@
+input: .
+output: .retype
+url: support.nemex-arms.pl
+favicon: static/logo.png
+logo: /static/logo.png
+meta:
+  title: ' - NEMEX-ARMS'
+branding:
+  title: NEMEX-ARMS
+  logo: /static/logo.png
+links:
+  - text: Strona główna
+    link: https://nemex-arms.pl/
+    target: blank
+    icon: home
+exclude:
+  - 'README.md'
+edit:
+  repo: 'https://github.com/wavehost/wiki'
+  branch: main
+  label: Edytuj na GitHub
+start:
+  open: false
+search:
+  noResultsFoundMsg: Nie znaleziono.
+  placeholder: Szukaj
+generator:
+  recase: none
+footer:
+  copyright: 'NEMEX-ARMS &copy; 2025.'
